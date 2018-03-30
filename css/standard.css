@@ -1,0 +1,108 @@
+html, body{
+	margin: 0;
+	font-size: 3vh;
+	font-family: "Open Sans", sans-serif;
+	background-image: url('../images/background1.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	overflow:hidden;
+}
+/*nav {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	padding-top:5vh;
+	padding-bottom:5vh;
+	color:white;
+	font-family: sans-serif;
+	word-spacing: 30px;
+	text-align:right;
+
+}*/
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	padding-top:5vh;
+	padding-bottom:5vh;
+	color:white;
+	word-spacing: 30px;}
+
+nav a {
+	color: white;
+	text-decoration:none;
+
+	}
+
+nav {
+	display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+	height: 3em;
+	color:white;
+	background-color:white;}
+
+#casa {
+	position:fixed;
+	bottom: 5vh;
+	width: 10vw;
+left:50%;
+	transform: translatex(-50%);}
+
+
+
+article {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center center;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100vh;
+	}
+
+#home {
+	text-align: center;
+	color:white;
+	font-size:3vh;
+}
+
+
+
+#content {
+	position: relative;
+    text-align: center;
+    display: inline-flex;
+    flex-flow: column;
+	top:30vh;
+}
+
+h1 {
+	border-bottom: 5px solid white;
+	padding-bottom: 2vh;
+	padding-left:2vw;
+    margin: 0em 2em;
+}
+
+#audi {
+	background-image: url('../images/rsbg.jpg');}
+
+#bmw {
+	background-image: url('../images/m5bg4.jpg');}
+
+#mercedes {
+	background-image: url('../images/mbbg1.jpg');}
+
+
+
+
+
+
+
+
