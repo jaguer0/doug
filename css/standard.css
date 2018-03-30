@@ -70,6 +70,7 @@ article {
 	}
 
 #home {
+	position:fixed;
 	text-align: center;
 	color:white;
 	font-size:3vh;
