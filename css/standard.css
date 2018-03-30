@@ -6,7 +6,6 @@ html, body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	overflow-y:scroll;
 }
 /*nav {
 	position: fixed;
@@ -53,8 +52,10 @@ nav {
 	position:fixed;
 	bottom: 5vh;
 	width: 10vw;
-left:50%;
-	transform: translatex(-50%);}
+	left:50%;
+	transform: translatex(-50%);
+	z-index: 1000;
+}
 
 
 
@@ -72,7 +73,6 @@ article {
 	text-align: center;
 	color:white;
 	font-size:3vh;
-	z-index: 999;
 	background-image: url('../images/background1.jpg');
 }
 
