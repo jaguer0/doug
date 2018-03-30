@@ -27,6 +27,7 @@ header {
 	color:white;
 	word-spacing: 30px;
 	z-index: 10;
+	-webkit-transform: translate3d(0,0,0);
 }
 
 
@@ -67,7 +68,6 @@ article {
 	width: 100%;
 	height: 100vh;
 	z-index: 7;
-	-webkit-transform: translate3d(0,0,0);
 	}
 
 #home {
