@@ -30,7 +30,9 @@ header {
 	padding-top:5vh;
 	padding-bottom:5vh;
 	color:white;
-	word-spacing: 30px;}
+	word-spacing: 30px;
+	z-index: 1000;
+}
 
 nav a {
 	color: white;
@@ -41,7 +43,6 @@ nav a {
 nav {
 	display: flex;
     justify-content: space-around;
-	z-index: 1000;
 }
 
 .logo {
