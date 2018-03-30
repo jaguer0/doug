@@ -2,10 +2,6 @@ html, body{
 	margin: 0;
 	font-size: 3vh;
 	font-family: "Open Sans", sans-serif;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
 }
 /*nav {
 	position: fixed;
@@ -60,7 +56,6 @@ nav {
 
 
 article {
-	position:relative;
 	background-repeat: no-repeat;
 	background-size:cover;
 	box-sizing: border-box;
@@ -74,6 +69,7 @@ article {
 	color:white;
 	font-size:3vh;
 	background-image: url('../images/background1.jpg');
+	z-index:999;
 }
 
 
