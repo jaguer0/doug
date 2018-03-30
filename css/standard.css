@@ -7,6 +7,7 @@ html, body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	overflow-y:scroll;
 }
 /*nav {
 	position: fixed;
@@ -98,7 +99,7 @@ h1 {
 
 #bmw {
 	background-image: url('../images/m5bg4.jpg');
-	-webkit-transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);}
 
 #mercedes {
 	background-image: url('../images/mbbg1.jpg');
