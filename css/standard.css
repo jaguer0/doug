@@ -83,6 +83,7 @@ article {
     display: inline-flex;
     flex-flow: column;
 	top:30vh;
+	-webkit-transform: translate3d(0,0,0);
 }
 
 h1 {
