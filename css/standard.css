@@ -94,10 +94,15 @@ h1 {
 }
 
 #audi {
-	background-image: url('../images/rsbg.jpg');}
+	background-image: url('../images/rsbg.jpg');
+	z-index: 998;}
 
 #bmw {
-	background-image: url('../images/m5bg4.jpg');}
+	background-image: url('../images/m5bg4.jpg');
+	z-index: 998;
+}
 
 #mercedes {
-	background-image: url('../images/mbbg1.jpg');}
+	background-image: url('../images/mbbg1.jpg');
+	z-index: 998;
+}
