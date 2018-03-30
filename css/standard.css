@@ -69,7 +69,6 @@ article {
 	color:white;
 	font-size:3vh;
 	background-image: url('../images/background1.jpg');
-	z-index:999;
 }
 
 
@@ -101,4 +100,10 @@ h1 {
 	background-image: url('../images/mbbg1.jpg');
 	-webkit-transform: translate3d(0,0,0);
 }
-	
+
+#audi, #bmw, #mercedez {
+	display: none;
+}
+audi, #bmw, #mercedez:active{
+	display:block;
+}
