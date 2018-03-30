@@ -83,7 +83,6 @@ article {
     display: inline-flex;
     flex-flow: column;
 	top:30vh;
-	-webkit-transform: translate3d(0,0,0);
 }
 
 h1 {
@@ -95,14 +94,13 @@ h1 {
 
 #audi {
 	background-image: url('../images/rsbg.jpg');
-	z-index: 998;}
+	-webkit-transform: translate3d(0,0,0);}
 
 #bmw {
 	background-image: url('../images/m5bg4.jpg');
-	z-index: 998;
-}
+	-webkit-transform: translate3d(0,0,0);
 
 #mercedes {
 	background-image: url('../images/mbbg1.jpg');
-	z-index: 998;
+	-webkit-transform: translate3d(0,0,0);
 }
