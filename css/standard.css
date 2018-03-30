@@ -41,6 +41,7 @@ nav a {
 nav {
 	display: flex;
     justify-content: space-around;
+	z-index: 1000;
 }
 
 .logo {
