@@ -24,7 +24,7 @@ header {
 	width: 100vw;
 	padding-top:5vh;
 	padding-bottom:5vh;
-	color:white;
+	color: white;
 	word-spacing: 30px;
 	z-index: 10;
 }
@@ -72,8 +72,6 @@ article {
 	}
 
 #home {
-	display:block;
-	position:relative;
 	text-align: center;
 	color:white;
 	font-size:3vh;
@@ -84,13 +82,12 @@ article {
 	box-sizing: border-box;
 	width: 100%;
 	height: 100vh;
-	z-index: 10;
-	
 }
 
 
 
 #content {
+    position:relative;
     text-align: center;
     display: inline-flex;
     flex-flow: column;
