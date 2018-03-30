@@ -30,7 +30,10 @@ header {
 	padding-top:5vh;
 	padding-bottom:5vh;
 	color:white;
-	word-spacing: 30px;}
+	word-spacing: 30px;
+-webkit-transform: translate3d(0,0,0);
+}
+
 
 nav a {
 	color: white;
