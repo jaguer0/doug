@@ -71,7 +71,7 @@ article {
 	}
 
 #home {
-	position:fixed;
+	position:absolute;
 	text-align: center;
 	color:white;
 	font-size:3vh;
