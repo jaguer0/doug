@@ -73,6 +73,7 @@ article {
 	text-align: center;
 	color:white;
 	font-size:3vh;
+	z-index: 999;
 }
 
 
