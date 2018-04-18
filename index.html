@@ -1,53 +1,71 @@
 <! DOCTYPE html>
 <html>
 	<head>
-		<title> SUPERCARS 
+		<title> Music is life
 		</title>
 		<link rel="stylesheet" href="css/standard.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous">
+		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+		</script>
+		<script>
+			$(function() {
+				$("a").click(function() {
+					var href = $(this).attr("href");
+					$(href).toggle(500);
+				}
+								);
+				$(".popup").on("click",".close",function() {
+					$(this).parent().toggle(500);
+				}
+								  );
+			}
+			 );
+			$(function() {
+				$("nav > a").click(function() {
+					var href = $(this).attr("href");
+					var top = $(href).offset().top;
+					console.log("top="+top);
+					$("html,body").animate({
+						scrollTop: top 
+					}
+												  ,500);
+					return false;
+				}
+										);
+			}
+			 );
+		</script>
 	</head>
 	<body>
-		<header>
-			<nav>
-				<a href="#audi">
-					<img src="images/audilink2.png"/>
+		<article id="home1">
+			<div>
+				<a href="#concerts" id="button">Concerts 
+					<img src="images2/performance50.png" id="ticketlogo"/>
 				</a>
-				<a href="#bmw"> 
-					<img src="images/bmwlink.png"/>
+				<a href="#tickets" id="button2"> Tickets
+					<img src="images2/givingtickets50.png" id="ticketlogo"/>
 				</a>
-				<a href="#mercedes">
-					<img src="images/mblink.png"/>
-				</a>
-			</nav>
-		</header>
-		
-		<a href="#home" id="casa">
-			<img src="images/icons8-home-button-filled-50.png"/>
-		</a>
-		
-		<section id="home">
-			<div id="content">
-				<h1>The Battle between Luxury Supercars
-				</h1>
-				<p>Who will be the winner? 
-				</p>
-			</div>
-		</section>
-		
-		<article id="audi">
-			<div class="stats">
 			</div>
 		</article>
-		
-		<article id="bmw">
-			<div class="stats">
-			</div>
+		<article id="tickets" class="popup">
+			<i class="close fas fa-times-circle">
+			</i>
+			<h1>Tickets
+			</h1>
 		</article>
-		
-		<article id="mercedes">
-			<div class="stats">
-			</div>
+		<article id="concerts" class="popup">
+			<i class="close far fa-times-circle">
+			</i>	
+			About us
 		</article>
-		
+		<nav id="contact">
+			<img src="images2/facebook1.png">
+			<img src="images2/twitter.png">
+			<img src="images2/instagram.png">
+		</nav>
 	</body>
 </html>
