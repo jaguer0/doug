@@ -160,18 +160,12 @@ a:hover {
 #contact div:hover{
     opacity: 1;
 }
-#contact div{
-    height: 4em;
-    width: 4em;
-    padding: 3em;
-    text-align: center;
-    opacity: .5;
-    
-}
 #contact div {
-
-	padding:0 1em;
-	margin-bottom: .5em;
+padding:0 1em;
+height: 4em;
+width: 4em;
+margin-bottom: .5em;
+color:white;
 }
 #c1{background-color:#6e5494;}
 #c2{background-color: #0077B5;}
