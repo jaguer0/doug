@@ -164,9 +164,9 @@ a:hover {
 padding:1em;
 height: 2em;
 width: 2em;
-margin-bottom: 1em;
+margin: 0 2em;
 color:white;
 }
-#c1{background-color:blue;}
+#c1{background-color:#3b5998;}
 #c2{background-color: purple;}
-#c3{background:light-blue;}
+#c3{background:#0084b4;}
