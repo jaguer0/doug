@@ -162,11 +162,11 @@ a:hover {
 }
 #contact div {
 padding:0 1em;
-height: 4em;
-width: 4em;
+height: 2em;
+width: 2em;
 margin-bottom: .5em;
 color:white;
 }
-#c1{background-color:#6e5494;}
-#c2{background-color: #0077B5;}
-#c3{background:gold;}
+#c1{background-color:blue;}
+#c2{background-color: purple;}
+#c3{background:light-blue;}
