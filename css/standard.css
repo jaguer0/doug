@@ -1,172 +1,105 @@
+* {
+    box-sizing: border-box;
+}
 html, body{
 	margin: 0;
-	font-size: 3vh;
-	font-family: "Open Sans", sans-serif;
-	overflow:hidden;
-}
-body {
-	height:100%;
-	width:100%;
-}
-a {
-	color:white;
-	text-decoration: none;
-	margin-left: 0.5rem;
-	
+	font-size: 4vh;
+	font-family: 'Montserrat', sans-serif;
 }
 article {
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 }
-header {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 100vw;
-	padding-top:5vh;
-	padding-bottom:5vh;
-	padding-left:2vw;
-	color:white;
+nav {
+	position:fixed;
+	bottom: 3em;
+	right:3%;
+	font-size:1.25em;
+	word-spacing:1vw;
+	
 }
-#logo {
-	float: left;
-	font-size:2rem;
-	padding-left: 5vw;
+h3 {
+	padding-left:3%;
+	font-size: 4vh;
+	vertical-align:middle;
 }
-#home1 {
-	background-image: url('../images2/musiclife.jpg');
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+a {
+	display: inline-block;
+	color:orange;
+	text-decoration: none;
+	text-shadow: 2px 2px black;
+	top:-20px;
 }
-#home1 > div:nth-child(1){
-	text-align:center;
-	font-size: 1rem;
-	color:white;
-	position:relative;
-	top: 53%;
-	transform:translatey(-50%);
-	width:100%;
-}
-#home1 > div:nth-child(2) {
-	text-align:center;
-	font-size: 1rem;
-	color:white;
-	position:absolute;
-	top: 20%;
-	transform:translatey(-50%);
-	width:100%;
-}
-#home1 a {
-	transition: transform 0.5s;
-}
-
 a:hover {
-	transform: scale(1.5);
+	position:relative;
 }
-#home1 a:nth-child(1) {
-	text-transform:uppercase;
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	width: 10vw;
-	margin-right:25vw;
-}
-#home1 a:nth-child(2) {
-	text-transform:uppercase;
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	width: 10vw;
-	margin-left:25vw;
-}
-
-
-#button2 {
-	border-radius: 50px;
-	background-color: ;
-	color: white;
-	text-align: center;
-	padding: 16px 46px;*/
-	padding-bottom: 17px;
-	padding-top: 17px;
-	padding-left: 40px;
-	padding-right: 55px;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	cursor: pointer;
+img.a {
 	vertical-align: middle;
-	font-weight:bold;
 }
-#button {
-	border-radius: 50px;
-	color:white;
-	text-align: center;
-	/*padding: 16px 46px;*/
-	padding-bottom: 17px;
-	padding-top: 17px;
-	padding-left: 40px;
-	padding-right: 55px;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	cursor: pointer;
-	vertical-align: middle;
-	font-weight:bold;
-
-	/*background: radial-gradient(ellipse 
-	farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-	radial-gradient(ellipse 
-	farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);*/
+p {
+	padding-left:3%;
+	margin:0;
+	font-weight:700;
 }
-#ticketlogo {
-	height:10vh;
+#header {
+	color:orange;
+	padding-left:3%;
+	margin:0;
+	font-size: 2.25em;
+	text-shadow: 2px 2px black;
+	font-weight:bolder;
 }
-
-
+b {
+	color:black;
+}
+#home {
+	background-image: url('../images/cat.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+#schedule{
+	font-size:3vh;
+	color:orange;
+	vertical-align:text-top;
+	border-color:orange;
+	border-style: solid;
+	border-radius: 25px;
+}
+td {
+	vertical-align: top;
+	text-align: left;
+}
+td:nth-child(1){
+	padding-right:0.3vw;
+}
 .popup {
 	display: none;
 	position: fixed;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%,-50%);
+	background-color: rgba(0,0,0,0.8);
+	padding: 1em;
 	width: auto;
 	height: auto;
 	color: white;
-	opacity:0.9;
-	/*background: #E55D87;  /* fallback for old browsers */
-	/*background: -webkit-linear-gradient(to right, #4D8A9F, #A95B7A);  /* Chrome 10-25, Safari 5.1-6 */
-	/*background: linear-gradient(to right, #4D8A9F, #A95B7A);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background-color:rgba(0,0,0,0.8);
 }
-
-.popup svg:nth-child(1) {
+.popup img:nth-child(1) {
 	position: fixed;
 	top: -0.5em;
 	right: -0.5em;
 	cursor: pointer;
 }
-#contact{
-    position: fixed;
-    display: inline-flex;
-    flex-flow: row;
-    bottom: 0;
-    z-index: 1000;
-    text-align: center;
-    border-radius: 2em;
-    width: 100%;
-    justify-content: center;
+
+#pawf{
+	display: none;
+	position:absolute;
+	height: 20px;
 }
-#contact div:hover{
-    opacity: 1;
+#paw{
+	text-align: center;
+	position:relative;
 }
-#contact div {
-padding:1em;
-height: 3em;
-width: 3em;
-color:white;
-border-radius:3%
+#contact, #about{
+	display:none;
 }
-#c1{background-color:#3b5998;}
-#c2{background-color: purple;}
-#c3{background:#0084b4;}
